@@ -2,17 +2,77 @@
     float: right;
 }
 
+h2 {
+    color: gold;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/***
+Header
+***/
+
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: gold;
+    font-size: 30px;
+}
+
+header h2{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+/***
+Footer
+***/
+
 .social {
     height: 18px;
     width: 18px;
     margin: 0 2.5px;
 }
 
-#menu h2 {
-    color: goldenrod;
+/***
+Bourbon
+***/
+
+#bourbon h2{
+    font-family: 'Dancing Script', cursive;
+    color: gold;
+}
+
+
+/***
+Food Page- Menu
+***/
+
+#menu_left h2 {
+    color: gold;
     font-size: 20px;
 }
 
+#menu_left {
+    float: left;
+    width: 50%;
+}
+
+#menu_right h2 {
+    color: gold;
+    font-size: 20px;
+}
+
+#menu_right {
+    float:right;
+    width: 50%;
+}
+
+
 body {
-    background: darkgreen;
+    background: url("images/bg_image.jpg")10px 10px/cover repeat-x;
 }
