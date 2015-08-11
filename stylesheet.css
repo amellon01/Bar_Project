@@ -8,11 +8,16 @@ h2 {
     font-family: 'Dancing Script', cursive;
 }
 
+h3 {
+    color: gold;
+    font-size: 19px;
+    font-family: 'Dancing Script', cursive;
+}
+
 
 /***
 Header
 ***/
-
 
 header h1{
     font-family: 'Dancing Script', cursive;
@@ -38,13 +43,65 @@ Footer
     margin: 0 2.5px;
 }
 
+
+/***
+Home Page
+***/
+
+#events {
+    color: silver;
+}
+
+#events h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+}
+
+#events ul {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+}
+
+
+
 /***
 Bourbon
 ***/
 
+#subtitleb {
+    color: gold;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    width: 50%;
+}
+
+}
+
 #bourbon h2{
     font-family: 'Dancing Script', cursive;
     color: gold;
+}
+
+#bourbon ul {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: silver;
+}
+
+#bourbon_list {
+    list-style: none;
+    margin: auto;
+    width: 50%;
+    height: 25%;
+}
+
+#cocktails {
+    list-style: square;
+}
+
+#cocktails p {
+    font-size: 12px;
 }
 
 
