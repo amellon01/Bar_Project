@@ -1,10 +1,20 @@
+body {
+    background: url("images/bg_image.jpg")10px 10px/cover repeat-x;
+}
+
 #logo {
     float: right;
 }
 
+h1 {
+    color: gold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
 h2 {
     color: gold;
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -14,28 +24,53 @@ h3 {
     font-family: 'Dancing Script', cursive;
 }
 
+.bottomnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottomnav li{
+    display: inline;
+    margin-left: 22%;
+    font-family: 'Slabo 27px',serif;
+    font-size: 17px;
+}
+
+a:link, a:visited {
+    color: darkseagreen;
+    text-transform: full-width;
+    text-decoration: none;
+}
+
 
 /***
 Header
 ***/
 
-header h1{
+#name{
     font-family: 'Dancing Script', cursive;
-    text-decoration: none;
     color: gold;
-    font-size: 30px;
 }
 
-header h2{
-    font-family: 'Dancing Script', cursive;
-    text-decoration: none;
-    font-size: 22px;
+#name h1{
+    font-size: 33px;
+}
+
+#name h2{
+    font-size: 20px;
+    margin-top: -29px;
 }
 
 
 /***
 Footer
 ***/
+
+#footer {
+    color: silver;
+    font-size: 10px;
+}
 
 .social {
     height: 18px;
@@ -48,8 +83,23 @@ Footer
 Home Page
 ***/
 
+#mainnav a{
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navleft {
+    float: left;
+}
+
+.navright {
+    float: right;
+}
+
 #events {
     color: silver;
+    margin-top: 15%;
 }
 
 #events h4 {
@@ -72,15 +122,19 @@ Bourbon
 #subtitleb {
     color: gold;
     font-family: 'Dancing Script', cursive;
-    margin: auto;
-    width: 50%;
-}
-
+    margin: -30px 5% 20px;
 }
 
 #bourbon h2{
     font-family: 'Dancing Script', cursive;
     color: gold;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+#list2 {
+    margin-top: 32px;
 }
 
 #bourbon ul {
@@ -100,13 +154,28 @@ Bourbon
     list-style: square;
 }
 
+#cocktails li {
+    margin-left: 10%;
+}
+
 #cocktails p {
     font-size: 12px;
+    margin: -2px 15% 12px;
 }
 
 
 /***
-Food Page- Menu
+Beer
+***/
+
+.beer {
+    font-family: 'Raleway', sans-serif;
+    color: silver;
+    font-size: 15px;
+}
+
+/***
+Food Page
 ***/
 
 #menu_left h2 {
@@ -114,9 +183,17 @@ Food Page- Menu
     font-size: 20px;
 }
 
+#menu_left, 
+#menu_right {
+    width: 46.5%;
+}
+
 #menu_left {
     float: left;
-    width: 50%;
+}
+
+#menu_right {
+    float:right;
 }
 
 #menu_right h2 {
@@ -124,12 +201,12 @@ Food Page- Menu
     font-size: 20px;
 }
 
-#menu_right {
-    float:right;
-    width: 50%;
+.menuitems {
+    color: silver;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
 }
 
-
-body {
-    background: url("images/bg_image.jpg")10px 10px/cover repeat-x;
+.menuitems p {
+    font-size: 12px;
 }
