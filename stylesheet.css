@@ -33,14 +33,20 @@ h3 {
 .bottomnav li{
     display: inline;
     margin-left: 22%;
+    padding: 2px 5px;
     font-family: 'Slabo 27px',serif;
     font-size: 17px;
+    font-weight: 700;
 }
 
 a:link, a:visited {
-    color: darkseagreen;
+    color: #00078e;
     text-transform: full-width;
     text-decoration: none;
+}
+
+a:hover {
+    color: gold;
 }
 
 
@@ -84,9 +90,10 @@ Home Page
 ***/
 
 #mainnav a{
-    color: darkgreen;
+    color: #d6a119;
     text-decoration: none;
     font-size: 25px;
+    text-transform: none;
 }
 
 .navleft {
@@ -129,8 +136,9 @@ Bourbon
     font-family: 'Dancing Script', cursive;
     color: gold;
     margin: auto;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
+    font-size: 20px;
 }
 
 #list2 {
@@ -146,8 +154,12 @@ Bourbon
 #bourbon_list {
     list-style: none;
     margin: auto;
-    width: 50%;
+    width: 25%;
     height: 25%;
+}
+
+#bourbon_list li {
+    padding-top: 1%;
 }
 
 #cocktails {
@@ -205,8 +217,24 @@ Food Page
     color: silver;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    list-style: square;
 }
 
 .menuitems p {
     font-size: 12px;
+    margin: -1px 0 5px 10px;
+}
+
+/***
+Contact
+***/
+#building p {
+    color: silver;
+    font-size: 12px;
+    padding: 0 2%;
+    font-family: 'Raleway', sans-serif;
+
+#building {
+    background-color: beige;
+    display: inline;
 }
