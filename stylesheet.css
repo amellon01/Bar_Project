@@ -32,7 +32,7 @@ h3 {
 
 .bottomnav li{
     display: inline;
-    margin-left: 22%;
+    margin: 5% 10%;
     padding: 2px 5px;
     font-family: 'Slabo 27px',serif;
     font-size: 17px;
@@ -94,6 +94,10 @@ Home Page
     text-decoration: none;
     font-size: 25px;
     text-transform: none;
+}
+
+#mainnav li {
+    padding: 15% 10%;
 }
 
 .navleft {
@@ -202,6 +206,7 @@ Food Page
 
 #menu_left {
     float: left;
+    padding: 5% 0; 
 }
 
 #menu_right {
@@ -228,13 +233,49 @@ Food Page
 /***
 Contact
 ***/
-#building p {
+
+.location{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: silver;
+    margin: -24px auto 45px 18px;
+    padding: 5px;
+}
+
+.contact-info a{
+    color:silver;
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 15% 0 25% 0;
+}
+
+#map img{
+    max-width: 40%;
+    margin: 5% 0 10% 25%;
+    padding: 5px;
+    }
+
+#building img {
+    max-width: 40%;
+    margin: 10% 0 5% 25%;
+    padding: 5px;
+}
+
+#address {
+    font-family: 'Raleway', sans-serif;
     color: silver;
     font-size: 12px;
-    padding: 0 2%;
-    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
 
-#building {
-    background-color: beige;
-    display: inline;
+#contact_left {
+    float: left;
+}
+
+#contact_right {
+    float: right;
 }
