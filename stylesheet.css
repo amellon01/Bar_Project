@@ -1,5 +1,5 @@
 body {
-    background: url("images/bg_image.jpg")10px 10px/cover repeat-x;
+    background: url("images/bg_image.jpg") 100%/cover repeat-x fixed;
 }
 
 #logo {
