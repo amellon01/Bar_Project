@@ -279,3 +279,38 @@ Contact
 #contact_right {
     float: right;
 }
+
+#signup h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+#signup p{
+    color: silver;
+    font-family: 'Raleway',sans-serif;
+    margin: -24px auto 15px 18px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#signupForm {
+    font-family: 'Raleway', sans-serif;
+    color: silver;
+    font-size: 14px;
+    margin: auto 23% 5px 23%;
+}
+
+#submitButton {
+    border-color: gold;
+    background-color: gold;
+    font-family: 'Raleway', sans-serif;
+    color: #00078e;
+    margin: 5% 25%;
+    padding: 2%;
+}
+
+#submitButton:hover {
+    background-color: #00078e;
+    color: gold;
+    border-style: none;
+}
