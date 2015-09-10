@@ -32,7 +32,6 @@ h3 {
 
 .bottomnav li{
     display: inline;
-    margin: 5% 10%;
     padding: 2px 5px;
     font-family: 'Slabo 27px',serif;
     font-size: 17px;
@@ -202,11 +201,11 @@ Food Page
 #menu_left, 
 #menu_right {
     width: 46.5%;
+    padding: 5% 0; 
 }
 
 #menu_left {
     float: left;
-    padding: 5% 0; 
 }
 
 #menu_right {
@@ -313,4 +312,26 @@ Contact
     background-color: #00078e;
     color: gold;
     border-style: none;
+}
+
+/* Clearfix */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
 }
