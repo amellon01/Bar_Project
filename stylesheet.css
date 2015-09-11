@@ -32,7 +32,7 @@ h3 {
 
 .bottomnav li{
     display: inline;
-    padding: 2px 5px;
+    padding: 2px 8%;
     font-family: 'Slabo 27px',serif;
     font-size: 17px;
     font-weight: 700;
@@ -48,6 +48,9 @@ a:hover {
     color: gold;
 }
 
+ul li.selected a {
+    color: silver;
+}
 
 
 /***
@@ -113,9 +116,17 @@ Home Page
     margin-top: 15%;
 }
 
+#events h3 {
+    font-size: 25px;
+    margin-bottom: 2.5px;
+    padding-bottom: 2.5px;
+}
+
 #events h4 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: -7px;
 }
 
 #events ul {
